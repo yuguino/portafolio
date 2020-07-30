@@ -1,0 +1,35 @@
+body {
+  font-family: "Sarala";
+  font-family: "Comfortaa";
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a.navbar-brand {
+  width: 137px;
+  height: 46px;
+  font-size: 37px;
+  font-family: "Sarala";
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+a.nav-link {
+  text-align: right;
+  color: rosybrown!important;
+  width: 230px;
+}
+a.nav-link:hover {
+  text-decoration: line-through;
+  color: red !important;
+}
+.navbar {
+  background-color: antiquewhite!important;
+}
+.fondo {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
