@@ -1,28 +1,30 @@
 body {
-  font-family: "Sarala";
-  font-family: "Comfortaa";
+	font-family: "Sarala";
+  	font-family: "Comfortaa";
 }
 * {
-  margin: 0px;
-  padding: 0px;
+  	margin: 0px;
+  	padding: 0px;
 }
 a.navbar-brand {
-  width: 137px;
-  height: 46px;
-  font-size: 37px;
-  font-family: "Sarala";
-  text-align: center;
-  padding: 0;
-  margin: 0;
+  	width: 137px;
+  	height: 46px;
+  	font-size: 37px;
+  	font-family: "Comfortaa";
+  	text-align: center;
+  	padding: 0;
+  	margin: 0;
+}
+a.navbar-brand img {
+	width: 100%;
 }
 a.nav-link {
-  text-align: right;
-  color: rosybrown!important;
-  width: 230px;
+  	text-align: right;
+  	color: #BD94A0 !important;
+  	width: 230px;
 }
 a.nav-link:hover {
-  text-decoration: overline;
-  color: white !important;
+  color: #F2E966 !important;
 }
 .navbar {
   background-color: #314141 !important;
@@ -32,4 +34,225 @@ a.nav-link:hover {
   z-index: 0;
   width: 100%;
   height: auto;
+}
+.about {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  top: 180px;
+}
+.perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 4.5%;
+}
+h1 {
+  font-family: "Sarala";
+  font-size: 42px;
+  padding-bottom: 0px;
+  letter-spacing: -2px;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Comfortaa";
+  font-size: 18px;
+  padding: 0px;
+  margin-top: 0px;
+  letter-spacing: 15px;
+  text-align: center;
+  width: 100%;
+  color: #F7B77E;
+}
+
+h2.titulo {
+  font-family: "Comfortaa";
+  font-size: 35px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 65px !important;
+  margin-bottom: 30px !important;
+}
+
+.trabajos {
+  margin-top: 1100px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  background-color: #314141;
+}
+h2.oscuro {
+  font-family: "Sarala";
+  font-size: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-right: 0px !important;
+  color: #F2E966 !important;
+  padding-top: 65px;
+  margin-bottom: 30px;
+}
+.card {
+  margin: 0 auto 40px auto;
+}
+a.btn.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+.formulario {
+  margin-top: 3450px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  padding-bottom: 30px;
+}
+h2.contacto {
+  font-family: "Comfortaa";
+  font-size: 35px;
+  padding: 0px;
+  margin-top: 35px;
+  letter-spacing: 7px;
+  text-align: center;
+  width: 100%;
+  color: #528EA0;
+}
+
+a.typeform-share.button {
+  justify-content: center !important;
+}
+footer {
+  margin-top: 4200px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  background-color: #314141;
+  font-family: "Comfortaa";
+  color: white;
+  padding-top: 20px;
+}
+.fa-behance:before {
+  color: #D99B96;
+}
+@media (min-width: 1280px) {
+  .fondo {
+    position: relative;
+    z-index: 0;
+    top: -250px;
+  }
+  .about {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 340px;
+  }
+  .perfil {
+    width: 337px;
+    height: 337px;
+	  margin-bottom: 50px;
+    border-radius: 4.5%;
+  }
+  h1 {
+    font-family: "Comfortaa";
+    font-size: 72px;
+    padding-bottom: 0px;
+    letter-spacing: -2px;
+    text-align: center;
+    width: 100%;
+	 color: #D99B96;
+  }
+ 
+  h2 {
+    font-family: "Comfortaa";
+    font-size: 62px;
+    padding: 0px;
+    margin-top: 0px;
+    letter-spacing: 15px;
+    text-align: center;
+    width: 100%;
+    color: #F7B77E;
+  }
+  h2.titulo {
+    font-size: 52px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 85px !important;
+  }
+  div.col {
+    text-align: center;
+  }
+  .trabajos {
+    margin-top: 800px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    background-color: #314141;
+    padding-bottom: 100px !important;
+  }
+  h2.oscuro {
+    font-family: "Sarala";
+    font-size: 52px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 30px !important;
+  }
+  .card {
+    margin: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-items: flex-start; */
+  }
+  div.card {
+    align-self: stretch !important;
+  }
+  .formulario {
+    margin-top: 2250px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    padding-bottom: 30px;
+  }
+  h2.contacto {
+    font-family: "Comfortaa";
+    font-size: 52px;
+    padding-top: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    letter-spacing: 7px;
+    text-align: center;
+    width: 100%;
+    color: #528EA0;
+  }
+  p.formu {
+    font-size: 20px !important;
+    width: 800px;
+    margin: 0 auto 40px auto;
+	  color: #B4AB97;
+  }
+  a.typeform-share.button {
+    display: none !important;
+  }
+  div.col.text-center {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+  footer {
+    margin-top: 3100px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    background-color: #314141;
+    padding-top: 20px;
+  }
 }
