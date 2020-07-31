@@ -21,11 +21,11 @@ a.nav-link {
   width: 230px;
 }
 a.nav-link:hover {
-  text-decoration: line-through;
-  color: red !important;
+  text-decoration: overline;
+  color: white !important;
 }
 .navbar {
-  background-color: antiquewhite!important;
+  background-color: #314141 !important;
 }
 .fondo {
   position: absolute;
