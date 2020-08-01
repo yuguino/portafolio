@@ -187,7 +187,7 @@ footer {
     text-align: center;
   }
   .trabajos {
-    margin-top: 800px;
+    margin-top: 600px;
     width: 100%;
     height: auto;
     position: absolute;
@@ -210,13 +210,12 @@ footer {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* align-items: flex-start; */
   }
   div.card {
     align-self: stretch !important;
   }
   .formulario {
-    margin-top: 2250px;
+    margin-top: 1650px;
     width: 100%;
     position: absolute;
     z-index: 0;
@@ -247,7 +246,7 @@ footer {
     padding: 0px !important;
   }
   footer {
-    margin-top: 3100px;
+    margin-top: 2400px;
     width: 100%;
     height: auto;
     position: absolute;
